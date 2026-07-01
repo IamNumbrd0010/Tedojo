@@ -1,0 +1,23 @@
+.programmes {
+  padding: 120px 0;
+
+  background: #07152e;
+}
+
+.programme-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 35px;
+
+  margin-top: 70px;
+}
+
+.view-all {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 60px;
+}

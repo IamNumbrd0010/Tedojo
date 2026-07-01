@@ -1,0 +1,91 @@
+:root {
+  /* ===========================
+       OFFICIAL BRAND COLORS
+    ============================ */
+
+  --color-primary: #0a1f44;
+  --color-primary-dark: #06142a;
+  --color-primary-light: #1c3e73;
+
+  --color-gold: #c89b3c;
+  --color-gold-light: #e4bf5a;
+  --color-gold-dark: #a97818;
+
+  --color-silver: #c5c8ce;
+  --color-gunmetal: #757a82;
+
+  --color-black: #111111;
+  --color-white: #ffffff;
+
+  /* ===========================
+       BACKGROUNDS
+    ============================ */
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fc;
+
+  /* ===========================
+       TEXT
+    ============================ */
+
+  --text-primary: #111111;
+  --text-secondary: #5c6470;
+
+  /* ===========================
+       TYPOGRAPHY
+    ============================ */
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* ===========================
+       SPACING (8px System)
+    ============================ */
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+  --space-8: 128px;
+
+  /* ===========================
+       BORDER RADIUS
+    ============================ */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  /* ===========================
+       SHADOWS
+    ============================ */
+
+  --shadow-sm: 0 4px 12px rgba(10, 31, 68, 0.08);
+
+  --shadow-md: 0 10px 30px rgba(10, 31, 68, 0.12);
+
+  --shadow-lg: 0 20px 50px rgba(10, 31, 68, 0.18);
+
+  /* ===========================
+       TRANSITIONS
+    ============================ */
+
+  --transition-fast: 0.2s ease;
+
+  --transition-normal: 0.35s ease;
+
+  --transition-slow: 0.5s ease;
+
+  /* others */
+  --container: 1200px;
+
+  --transition: 0.35s ease;
+
+  --radius: 16px;
+
+  --shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}

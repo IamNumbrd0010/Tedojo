@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.section-subtitle {
+  color: var(--color-gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: white;
+  line-height: 1.1;
+}
+
+.section-description {
+  color: #d6d9df;
+
+  font-size: 1.1rem;
+
+  line-height: 1.8;
+}

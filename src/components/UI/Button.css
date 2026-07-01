@@ -1,0 +1,52 @@
+.button {
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  transition: var(--transition);
+
+  font-family: "Poppins", sans-serif;
+}
+
+.gold {
+  background: var(--color-gold);
+
+  color: white;
+}
+.silver {
+  background: var(--color-silver);
+  color: white;
+}
+
+.silver:hover {
+  background: var(--color-gunmetal);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(192, 192, 192, 1);
+}
+
+.gold:hover {
+  background: var(--color-gold-light);
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 10px 25px rgba(200, 155, 60, 0.35);
+}
+.outline {
+  background: transparent;
+
+  border: 2px solid var(--color-gold);
+
+  color: white;
+}
+
+.outline:hover {
+  background: var(--color-gold);
+}
