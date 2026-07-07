@@ -71,3 +71,12 @@
 
   color: #555;
 }
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    padding: 30px;
+  }
+}

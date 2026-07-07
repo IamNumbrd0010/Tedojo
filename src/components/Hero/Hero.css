@@ -89,3 +89,97 @@
 
   max-width: 600px;
 }
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width: 992px) {
+  .hero {
+    padding-top: 160px;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+
+    text-align: center;
+
+    gap: 60px;
+  }
+
+  .hero-content {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero p {
+    max-width: 700px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+
+  .hero-stats {
+    justify-content: center;
+
+    gap: 35px;
+
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+
+  .hero-image img {
+    max-width: 450px;
+  }
+}
+/* ===========================
+   PHONES
+=========================== */
+
+@media (max-width: 576px) {
+  .hero {
+    padding-top: 140px;
+
+    padding-bottom: 70px;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .hero-buttons .button {
+    width: 100%;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  .hero-image img {
+    max-width: 320px;
+  }
+}

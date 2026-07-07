@@ -6,6 +6,10 @@ import WhyTedojo from "./components/WhyTedojo";
 import Footer from "./components/Footer";
 import Programmes from "./components/Programmes/Programmes";
 import Journey from "./components/Journey/Journey";
+import testimonials from "./data/testimonials";
+import TestimonialCard from "./components/TestimonialCard/TestimonialCard";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Gallery from "./components/Gallery/Gallery";
 function App() {
   return (
     <>
@@ -16,6 +20,8 @@ function App() {
         <WhyTedojo />
         <Programmes />
         <Journey />
+        <Testimonials />
+        <Gallery />
       </Container>
       <Footer />
     </>

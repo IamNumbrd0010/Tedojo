@@ -1,4 +1,5 @@
 import "./WhyTedojo.css";
+import SectionTitle from "./UI/SectionTitle/SectionTitle";
 
 const features = [
   {
@@ -27,15 +28,11 @@ function WhyTedojo() {
   return (
     <section className="why" id="about">
       <div className="container">
-        <span className="section-subtitle">Why TEDOJO</span>
-
-        <h2 className="section-title">More Than Martial Arts</h2>
-
-        <p className="section-description">
-          TEDOJO combines executive leadership development with the timeless
-          principles of karate, creating professionals who are stronger,
-          healthier and more confident in every aspect of life.
-        </p>
+        <SectionTitle
+          subtitle="Why TEDOJO"
+          title="More Than Martial Arts"
+          description="TEDOJO combines executive leadership development with timeless karate principles, creating professionals who are stronger, healthier and more confident."
+        />
 
         <div className="feature-grid">
           {features.map((feature) => (
