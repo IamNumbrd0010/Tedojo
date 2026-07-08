@@ -1,7 +1,9 @@
+import heroImage from "../assets/images/hero.png";
+
 const programmes = [
   {
     id: 1,
-    image: "Homepage images/hero.png",
+    image: heroImage,
     title: "Executive Martial Arts For Success",
     duration: "8 Weeks",
     level: "All Levels",
