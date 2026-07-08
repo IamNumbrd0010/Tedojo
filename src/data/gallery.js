@@ -1,33 +1,33 @@
 const gallery = [
   {
     id: 1,
-    image: "https://placehold.co/800x1000",
+    image: "Homepage images/IMG_5550.jpg",
     title: "Executive Training",
   },
   {
     id: 2,
-    image: "https://placehold.co/600x600",
+    image: "Homepage images/IMG_4295.jpg",
     title: "Leadership Workshop",
   },
   {
     id: 3,
-    image: "https://placehold.co/600x900",
+    image: "Homepage images/IMG_4749.jpg",
     title: "Corporate Seminar",
   },
   {
     id: 4,
-    image: "https://placehold.co/900x600",
+    image: "Homepage images/IMG_4796x.jpg",
     title: "Belt Ceremony",
   },
   {
     id: 5,
-    image: "https://placehold.co/700x900",
-    title: "Group Session",
+    image: "Homepage images/IMG_4873.jpg",
+    title: "Confidence Building",
   },
   {
     id: 6,
-    image: "https://placehold.co/800x800",
-    title: "Confidence Building",
+    image: "Homepage images/IMG_5605.jpg",
+    title: "Group Session",
   },
 ];
 

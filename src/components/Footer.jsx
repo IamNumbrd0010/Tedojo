@@ -1,5 +1,6 @@
 import "./Footer.css";
 
+import logo from "../assets/logo/tedojo-logo.png";
 function Footer() {
   const year = new Date().getFullYear();
 
@@ -7,8 +8,10 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h2>YourLogo</h2>
-          <p>Building quality experiences with modern web solutions.</p>
+          <a href="/" className="logo">
+            <img src={logo} alt="TEDOJO Logo" />
+          </a>
+          <p>More Than Martial Arts</p>
         </div>
 
         <div className="footer-links">
@@ -21,14 +24,14 @@ function Footer() {
 
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p>Email: info@example.com</p>
+          <p>Email: admintedojo@gmail.com</p>
           <p>Phone: +234 800 000 0000</p>
           <p>Lagos, Nigeria</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {year} Your Company. All Rights Reserved.</p>
+        <p>© {year} The Executive Dojo. All Rights Reserved.</p>
       </div>
     </footer>
   );
