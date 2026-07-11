@@ -1,28 +1,38 @@
 const navLinks = [
   {
     id: 1,
-    label: "About",
-    href: "#about",
+    label: "Home",
+    href: "/",
   },
+
   {
     id: 2,
-    label: "Courses",
-    href: "#courses",
+    label: "About",
+    href: "/about",
   },
+
   {
     id: 3,
-    label: "Gallery",
-    href: "#gallery",
+    label: "Courses",
+    href: "/courses",
   },
+
   {
     id: 4,
-    label: "FAQ",
-    href: "#faq",
+    label: "Gallery",
+    href: "/gallery",
   },
+
   {
     id: 5,
+    label: "Testimonials",
+    href: "/testimonials",
+  },
+
+  {
+    id: 6,
     label: "Contact",
-    href: "#contact",
+    href: "/contact",
   },
 ];
 

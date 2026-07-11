@@ -5,7 +5,7 @@ import Button from "../UI/Button";
 
 import logo from "../../assets/logo/tedojo-logo.png";
 import navLinks from "../../data/navLinks";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -24,28 +24,32 @@ function Navbar() {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav-container">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           <img src={logo} alt="TEDOJO Logo" />
-        </a>
+        </Link>
 
         <nav className={menuOpen ? "nav active" : "nav"}>
           <ul className="nav-links">
             {navLinks.map((link) => (
               <li key={link.id}>
-                <a href={link.href} onClick={() => setMenuOpen(false)}>
+                <Link to={link.href} onClick={() => setMenuOpen(false)}>
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
 
             <li className="mobile-register">
-              <Button variant="gold">Register Now</Button>
+              <Link to="/register">
+                <Button variant="gold">Register </Button>
+              </Link>
             </li>
           </ul>
         </nav>
 
         <div className="desktop-register">
-          <Button variant="gold">Register Now</Button>
+          <Link to="/register">
+            <Button variant="gold">Register Now</Button>
+          </Link>
         </div>
       </div>
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>

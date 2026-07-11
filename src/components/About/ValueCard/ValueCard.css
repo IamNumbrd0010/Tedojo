@@ -1,0 +1,29 @@
+.value-card {
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+}
+
+.value-card h3 {
+  color: var(--color-primary);
+
+  margin-bottom: 16px;
+
+  font-size: 1.7rem;
+}
+
+.value-card p {
+  color: #666;
+
+  line-height: 1.8;
+}

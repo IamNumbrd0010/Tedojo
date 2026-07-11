@@ -1,0 +1,47 @@
+.story {
+  padding: 120px 0;
+}
+
+.story-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1.5fr;
+
+  gap: 80px;
+
+  align-items: start;
+}
+
+.story-left span {
+  color: var(--color-gold);
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+.story-left h2 {
+  font-size: clamp(2rem, 5vw, 3rem);
+
+  margin-top: 20px;
+
+  color: var(--color-primary);
+}
+
+.story-right p {
+  font-size: 1.1rem;
+
+  line-height: 1.9;
+
+  color: #555;
+
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .story-container {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+}

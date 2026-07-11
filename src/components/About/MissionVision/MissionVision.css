@@ -1,0 +1,17 @@
+.mission-vision {
+  padding: 0 0 120px;
+}
+
+.mission-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
+}

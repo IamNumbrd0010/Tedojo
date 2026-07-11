@@ -1,7 +1,7 @@
 import "./Programmes.css";
-import programmes from "../../data/programmes";
+import programmes from "../../../data/programmes";
 import ProgrammeCard from "../ProgrammeCard/ProgrammeCard";
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 
 function Programmes() {
   return (

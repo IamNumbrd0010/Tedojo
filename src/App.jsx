@@ -1,30 +1,33 @@
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Container from "./components/UI/Container";
-import WhyTedojo from "./components/WhyTedojo";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Footer from "./components/Footer";
-import Programmes from "./components/Programmes/Programmes";
-import Journey from "./components/Journey/Journey";
-import testimonials from "./data/testimonials";
-import TestimonialCard from "./components/TestimonialCard/TestimonialCard";
-import Testimonials from "./components/Testimonials/Testimonials";
-import Gallery from "./components/Gallery/Gallery";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Courses from "./pages/Courses";
+import Gallery from "./pages/Gallery";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
+import Register from "./pages/Register";
+
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
 
-      <Container>
-        <Hero />
-        <WhyTedojo />
-        <Programmes />
-        <Journey />
-        <Testimonials />
-        <Gallery />
-      </Container>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

@@ -1,7 +1,7 @@
 import "./Testimonials.css";
-import SectionTitle from "../UI/SectionTitle/SectionTitle";
+import SectionTitle from "../../UI/SectionTitle/SectionTitle";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
-import testimonials from "../../data/testimonials";
+import testimonials from "../../../data/testimonials";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 
 function Testimonials() {
   return (

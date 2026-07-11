@@ -1,7 +1,7 @@
 import "./Gallery.css";
-import SectionTitle from "../UI/SectionTitle/SectionTitle";
-import gallery from "../../data/gallery";
-import Button from "../UI/Button";
+import SectionTitle from "../../UI/SectionTitle/SectionTitle";
+import gallery from "../../../data/gallery";
+import Button from "../../UI/Button";
 
 function Gallery() {
   return (

@@ -1,5 +1,5 @@
 import "./ProgrammeCard.css";
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 
 function ProgrammeCard({ programme }) {
   return (
