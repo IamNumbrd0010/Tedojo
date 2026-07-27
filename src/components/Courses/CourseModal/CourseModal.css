@@ -1,0 +1,147 @@
+.modal-overlay {
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+
+  width: 100%;
+
+  max-width: 700px;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  position: relative;
+
+  animation: modalPop 0.3s ease;
+}
+
+.close-btn {
+  position: absolute;
+
+  top: 20px;
+
+  right: 20px;
+
+  border: none;
+
+  background: none;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+}
+
+.modal-level {
+  display: inline-block;
+
+  background: rgba(200, 155, 60, 0.15);
+
+  color: var(--color-gold);
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+.modal-content h2 {
+  color: var(--color-primary);
+
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  color: #666;
+
+  line-height: 1.8;
+}
+
+.modal-details {
+  display: flex;
+
+  gap: 40px;
+
+  margin: 30px 0;
+}
+
+.modal-outcomes ul {
+  margin-top: 15px;
+
+  padding-left: 20px;
+}
+
+.modal-outcomes li {
+  margin-bottom: 10px;
+}
+
+.register-btn {
+  width: 100%;
+
+  margin-top: 30px;
+
+  padding: 16px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: var(--color-gold);
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  color: var(--color-primary);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+@keyframes modalPop {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 30px 20px;
+  }
+
+  .modal-details {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+}

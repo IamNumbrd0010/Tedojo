@@ -1,0 +1,55 @@
+.CoreValues {
+  padding: 120px 0;
+
+  background: #f7f9fc;
+}
+
+.CoreValues-header {
+  text-align: center;
+
+  max-width: 700px;
+
+  margin: 0 auto 70px;
+}
+
+.CoreValues-header span {
+  color: var(--color-gold);
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+.CoreValues-header h3 {
+  color: var(--color-primary);
+
+  font-size: clamp(2rem, 5vw, 3rem);
+
+  margin: 18px 0;
+}
+
+.CoreValues-header p {
+  color: #666;
+
+  line-height: 1.8;
+}
+
+.CoreValues-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .CoreValues-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .CoreValues-grid {
+    grid-template-columns: 1fr;
+  }
+}

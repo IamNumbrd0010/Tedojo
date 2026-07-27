@@ -1,27 +1,21 @@
 import "./CTA.css";
 import Button from "../../UI/Button";
 
-function CTA() {
+function CTA({ tag, title, description, primaryButton, secondaryButton }) {
   return (
     <section className="cta">
       <div className="container">
         <div className="cta-content">
-          <span className="cta-tag">Begin Your Executive Journey</span>
+          <span className="cta-tag">{tag}</span>
 
-          <h2>
-            Build Discipline.
-            <br />
-            Lead With Confidence.
-          </h2>
+          <h2>{title}</h2>
 
-          <p>
-            Experience executive karate training designed to sharpen leadership,
-            confidence, resilience, and mental strength.
-          </p>
+          <p>{description}</p>
 
           <div className="cta-buttons">
-            <Button variant="gold">Register Now</Button>
-            <Button variant="outline">Explore Courses</Button>
+            <Button variant="gold">{primaryButton}</Button>
+
+            <Button variant="outline">{secondaryButton}</Button>
           </div>
         </div>
       </div>

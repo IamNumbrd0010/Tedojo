@@ -1,0 +1,189 @@
+.contact-hero {
+  padding: 180px 0 100px;
+
+  background: linear-gradient(135deg, var(--color-primary), #06142a);
+
+  color: white;
+
+  text-align: center;
+}
+
+.contact-hero span {
+  color: var(--color-gold);
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+
+.contact-hero h1 {
+  margin: 20px 0;
+
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.contact-hero p {
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.contact-info {
+  padding: 100px 0;
+
+  background: #f7f9fc;
+}
+
+.contact-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
+.contact-card {
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  color: var(--color-primary);
+
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #666;
+
+  line-height: 1.8;
+}
+
+.whatsapp {
+  background: var(--color-gold);
+
+  color: white;
+}
+
+.whatsapp h3,
+.whatsapp p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.contact-location {
+  padding: 100px 0;
+
+  background: white;
+}
+
+.location-header {
+  text-align: center;
+
+  margin-bottom: 60px;
+}
+
+.location-header span {
+  color: var(--color-gold);
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+
+.location-header h2 {
+  margin-top: 15px;
+
+  color: var(--color-primary);
+}
+
+.location-grid {
+  display: grid;
+
+  grid-template-columns: 350px 1fr;
+
+  gap: 40px;
+}
+
+.hours-card {
+  background: #f7f9fc;
+
+  padding: 35px;
+
+  border-radius: 20px;
+}
+
+.hours-card h3 {
+  margin-bottom: 30px;
+
+  color: var(--color-gold);
+}
+
+.hours-card span {
+  color: var(--color-gold);
+}
+
+.hours-card strong {
+  color: var(--color-gold);
+}
+
+.hour-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 18px 0;
+
+  border-bottom: 1px solid var(--color-gold);
+}
+
+.map-card {
+  background: #ececec;
+
+  border-radius: 20px;
+
+  min-height: 420px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #777;
+
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+}

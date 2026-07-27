@@ -20,7 +20,19 @@ function Home() {
         <Journey />
         <Testimonials />
         <Gallery />
-        <CTA />
+        <CTA
+          tag="Begin Your Executive Journey"
+          title={
+            <>
+              Build Discipline.
+              <br />
+              Lead With Confidence.
+            </>
+          }
+          description="Experience executive karate training designed to sharpen leadership, confidence, resilience, and mental strength."
+          primaryButton="Register Now"
+          secondaryButton="Explore Courses"
+        />
       </Container>
     </>
   );
